@@ -1,0 +1,35 @@
+.box__chat {
+  height: 80vh;
+  width: 100%;
+  overflow: scroll;
+  box-sizing: border-box;
+  padding: 0.75rem;
+}
+.message p {
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: 1rem;
+  margin: 0.1rem;
+  max-width: 30rem;
+}
+.message {
+  width: 100%;
+  display: block;
+}
+.left {
+  float: left;
+  clear: both;
+  background-color: rgb(233, 227, 227);
+}
+.right {
+  float: right;
+  clear: both;
+  background-color: rgb(82, 138, 223);
+  color: white;
+}
+
+.VideoChatMain {
+  position: absolute;
+  top: 17px;
+  right: 25px;
+}

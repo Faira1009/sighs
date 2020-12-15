@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+.contacts{
+    flex-basis: 28%;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: solid 0.3px rgb(219, 215, 215);
+}
+.individual{
+    flex-basis: 72%;
+}

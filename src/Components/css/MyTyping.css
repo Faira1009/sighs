@@ -1,0 +1,29 @@
+.typing__area {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.typing__area input {
+  border: none;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 1rem;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  outline: none;
+  margin: 1rem auto;
+}
+#sympol {
+  font-size: 2rem;
+  padding-right: 1.5rem;
+}
+.typing__area .emoji {
+  width: 300px !important;
+  position: absolute;
+  bottom: 4rem;
+  right: 3rem;
+}

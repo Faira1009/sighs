@@ -1,0 +1,15 @@
+.personal {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: solid 0.3px rgb(219, 215, 215);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.personal:hover {
+  background-color: rgb(231, 229, 225);
+}
+.active {
+  background-color: rgb(231, 229, 225);
+}

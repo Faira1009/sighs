@@ -1,0 +1,6 @@
+.people{
+    width: 100%;
+    overflow: scroll;
+    height: 84vh;
+    box-sizing: border-box;
+}
